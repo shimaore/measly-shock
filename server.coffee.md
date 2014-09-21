@@ -1,4 +1,5 @@
-Provides a service to reload opensip
+Provides a service to reload opensip routes.
+This is meant to be used with `abstracted-birds` since the current ccnq3 opensips package doesn't use the AMQP bus.
 
     ccnq3 = require 'ccnq3'
 

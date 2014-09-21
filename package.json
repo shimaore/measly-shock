@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "forever start -o out.log -e err.log -l forever.log server.coffee.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stéphane Alnet <stephane@shimaore.net> (http://stephane.shimaore.net/)",
-  "license": "GPLv3"
+  "license": "GPLv3",
+  "dependencies": {
+    "ccnq3": "^0.6.0",
+    "coffee-script": "^1.8.0",
+    "forever": "^0.11.1"
+  }
 }
